@@ -1,0 +1,80 @@
+"*":
+  "activate-power-mode":
+    comboMode:
+      activationThreshold: 1
+      opacity: 0.4
+    particles:
+      colours:
+        fixed: "#00fdff"
+      size:
+        max: 10
+        min: 5
+      spawnCount:
+        max: 8
+        min: 4
+      totalCount:
+        max: 800
+    playAudio:
+      enabled: true
+      volume: 0.01
+    screenShake:
+      maxIntensity: 1
+      minIntensity: 0
+  "atom-beautify":
+    css:
+      align_assignments: true
+      beautify_on_save: true
+      default_beautifier: "Pretty Diff"
+    general:
+      _analyticsUserId: "aa815f69-15fe-4f40-a3d3-b0d0f83f2bbe"
+    html:
+      beautify_on_save: true
+    js:
+      beautify_on_save: true
+    json:
+      beautify_on_save: true
+    jsx:
+      beautify_on_save: true
+    less:
+      beautify_on_save: true
+    markdown:
+      beautify_on_save: true
+    sass:
+      beautify_on_save: true
+    scss:
+      align_assignments: true
+      beautify_on_save: true
+    vue:
+      beautify_on_save: true
+  "atom-ternjs":
+    useSnippets: true
+  core:
+    disabledPackages: [
+      "symbols-view"
+    ]
+    themes: [
+      "seti-ui"
+      "seti-syntax"
+    ]
+  editor:
+    tabLength: 4
+  "exception-reporting":
+    userId: "3af9b5fc-1479-ccdd-31c6-f33c27768026"
+  jslint: {}
+  minimap:
+    adjustAbsoluteModeHeight: true
+    autoToggle: false
+    charHeight: 4
+    charWidth: 2
+    plugins:
+      "identifier-highlight": true
+      "identifier-highlightDecorationsZIndex": 0
+  "seti-syntax":
+    dynamicColor: false
+    themeColor: "Orange"
+  "split-diff":
+    diffWords: true
+    ignoreWhitespace: true
+    leftEditorColor: "red"
+    rightEditorColor: "green"
+    syncHorizontalScroll: true

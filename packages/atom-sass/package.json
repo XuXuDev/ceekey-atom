@@ -1,0 +1,66 @@
+{
+  "_args": [
+    [
+      {
+        "raw": "/private/var/folders/2f/3873lfm50pldk1_tymzpq40c0000gn/T/d-1161022-46173-3ozi2s/package.tgz",
+        "scope": null,
+        "escapedName": null,
+        "name": null,
+        "rawSpec": "/private/var/folders/2f/3873lfm50pldk1_tymzpq40c0000gn/T/d-1161022-46173-3ozi2s/package.tgz",
+        "spec": "/private/var/folders/2f/3873lfm50pldk1_tymzpq40c0000gn/T/d-1161022-46173-3ozi2s/package.tgz",
+        "type": "local"
+      },
+      "/private/var/folders/2f/3873lfm50pldk1_tymzpq40c0000gn/T/apm-install-dir-1161022-46173-17rkqh1"
+    ]
+  ],
+  "_from": "../d-1161022-46173-3ozi2s/package.tgz",
+  "_id": "atom-sass@0.2.1",
+  "_inCache": true,
+  "_installable": true,
+  "_location": "/atom-sass",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "/private/var/folders/2f/3873lfm50pldk1_tymzpq40c0000gn/T/d-1161022-46173-3ozi2s/package.tgz",
+    "scope": null,
+    "escapedName": null,
+    "name": null,
+    "rawSpec": "/private/var/folders/2f/3873lfm50pldk1_tymzpq40c0000gn/T/d-1161022-46173-3ozi2s/package.tgz",
+    "spec": "/private/var/folders/2f/3873lfm50pldk1_tymzpq40c0000gn/T/d-1161022-46173-3ozi2s/package.tgz",
+    "type": "local"
+  },
+  "_requiredBy": [
+    "#USER"
+  ],
+  "_resolved": "file:../d-1161022-46173-3ozi2s/package.tgz",
+  "_shasum": "d764eb810300df6de26c44e04abe471133adf84b",
+  "_shrinkwrap": null,
+  "_spec": "/private/var/folders/2f/3873lfm50pldk1_tymzpq40c0000gn/T/d-1161022-46173-3ozi2s/package.tgz",
+  "_where": "/private/var/folders/2f/3873lfm50pldk1_tymzpq40c0000gn/T/apm-install-dir-1161022-46173-17rkqh1",
+  "bugs": {
+    "url": "https://github.com/rehrumesh/atom-sass/issues"
+  },
+  "dependencies": {},
+  "description": "Sass compiler for atom.",
+  "devDependencies": {},
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "homepage": "https://github.com/rehrumesh/atom-sass#readme",
+  "keywords": [
+    "atom",
+    "sass",
+    "scss",
+    "compile"
+  ],
+  "license": "MIT",
+  "main": "./lib/atom-sass",
+  "name": "atom-sass",
+  "optionalDependencies": {},
+  "readme": "# Atom-Sass: Sass Compiler for ATOM editor\n\nAtom-Sass is based on sass Ruby gem. Most of this work is based on [GomatoX's sass-compile](https://github.com/GomatoX/sass-compiler) project. Huge thanks to him for coming up with the initial project.\n\n\n## Dependencies\n* Sass Ruby gem https://rubygems.org/gems/sass/versions/3.4.22\n\nTo install, execute `gem install sass`\n\n## Installation\n\nUse atom package manager to install atom-sass.\n",
+  "readmeFilename": "README.md",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rehrumesh/atom-sass.git"
+  },
+  "version": "0.2.1"
+}

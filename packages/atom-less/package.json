@@ -1,0 +1,72 @@
+{
+  "_args": [
+    [
+      {
+        "raw": "/private/var/folders/2f/3873lfm50pldk1_tymzpq40c0000gn/T/d-1161022-46166-150no5l/package.tgz",
+        "scope": null,
+        "escapedName": null,
+        "name": null,
+        "rawSpec": "/private/var/folders/2f/3873lfm50pldk1_tymzpq40c0000gn/T/d-1161022-46166-150no5l/package.tgz",
+        "spec": "/private/var/folders/2f/3873lfm50pldk1_tymzpq40c0000gn/T/d-1161022-46166-150no5l/package.tgz",
+        "type": "local"
+      },
+      "/private/var/folders/2f/3873lfm50pldk1_tymzpq40c0000gn/T/apm-install-dir-1161022-46166-1vtm552"
+    ]
+  ],
+  "_from": "../d-1161022-46166-150no5l/package.tgz",
+  "_id": "atom-less@0.1.10",
+  "_inCache": true,
+  "_installable": true,
+  "_location": "/atom-less",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "/private/var/folders/2f/3873lfm50pldk1_tymzpq40c0000gn/T/d-1161022-46166-150no5l/package.tgz",
+    "scope": null,
+    "escapedName": null,
+    "name": null,
+    "rawSpec": "/private/var/folders/2f/3873lfm50pldk1_tymzpq40c0000gn/T/d-1161022-46166-150no5l/package.tgz",
+    "spec": "/private/var/folders/2f/3873lfm50pldk1_tymzpq40c0000gn/T/d-1161022-46166-150no5l/package.tgz",
+    "type": "local"
+  },
+  "_requiredBy": [
+    "#USER"
+  ],
+  "_resolved": "file:../d-1161022-46166-150no5l/package.tgz",
+  "_shasum": "3077a65c4d80ebabd67363f64205caf2bc63b8cb",
+  "_shrinkwrap": null,
+  "_spec": "/private/var/folders/2f/3873lfm50pldk1_tymzpq40c0000gn/T/d-1161022-46166-150no5l/package.tgz",
+  "_where": "/private/var/folders/2f/3873lfm50pldk1_tymzpq40c0000gn/T/apm-install-dir-1161022-46166-1vtm552",
+  "bugs": {
+    "url": "https://github.com/schmuli/atom-less/issues"
+  },
+  "dependencies": {
+    "async": "^1.4.2",
+    "less": "^2.5.1",
+    "less-plugin-autoprefix": "^1.5.1",
+    "less-plugin-clean-css": "^1.5.1",
+    "mkdirp": "^0.5.1"
+  },
+  "description": "Atom plugin to compile .less files on save.",
+  "devDependencies": {},
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "homepage": "https://github.com/schmuli/atom-less#readme",
+  "keywords": [
+    "atom",
+    "plugin",
+    "less",
+    "compile-on-save"
+  ],
+  "license": "MIT",
+  "main": "./lib/atom-less",
+  "name": "atom-less",
+  "optionalDependencies": {},
+  "readme": "# atom-less package\n\nAn Atom package that auto-compiles LESS files on save, with support for LESS plugins, Clean-CSS and AutoPrefixer.\n\n### Configuration\n\nOn the first line of LESS files, add a valid JSON comment, not including the outer brackets ('{' and '}'), with the following properties:\n\n- **\"main\"**: <code>string</code> -\n    The relative or absolute path to the main LESS file to be compiled (ignores all other options)\n- **\"out\"**: <code>boolean|string</code> -\n    <code>true</code> to output using the filename, or a string specifying a name to use\n- **\"compress\"**: <code>boolean</code> -\n    Use Less.JS built-in compression (not compatible with Clean-CSS or Source Maps)\n- **\"strictMath\"**: <code>boolean</code> -\n    Require brackets around math expressions\n- **\"sourceMap\"**: <code>boolean|Object</code> -\n    <code>true</code> to turn on source maps, or an object specifying LESS source map properties\n- **\"cleancss\"**: <code>string|object</code> -\n    a string specifying the 'compatibility' property,\n    or an object specifying the Clean-CSS properties (not compatible with Source Maps)\n- **\"autoprefixer\"**: <code>string|object</code> -\n    a <code>;</code> separated string specifying the 'browsers' property,\n    or an object specifying the AutoPrefixer properties\n\nOther LESS compiler options might work but are untested at this point.\n\n### Road Map\n1. Remove dependency on inline comments, and instead use a .lesscfg project file, allowing easier configuration and automatic support of additional LESS plugins\n2. Change callback passing to use Promises\n",
+  "readmeFilename": "README.md",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/schmuli/atom-less.git"
+  },
+  "version": "0.1.10"
+}

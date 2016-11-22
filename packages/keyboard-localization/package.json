@@ -1,0 +1,83 @@
+{
+  "_args": [
+    [
+      {
+        "raw": "/private/var/folders/2f/3873lfm50pldk1_tymzpq40c0000gn/T/d-1161022-46794-zqldql/package.tgz",
+        "scope": null,
+        "escapedName": null,
+        "name": null,
+        "rawSpec": "/private/var/folders/2f/3873lfm50pldk1_tymzpq40c0000gn/T/d-1161022-46794-zqldql/package.tgz",
+        "spec": "/private/var/folders/2f/3873lfm50pldk1_tymzpq40c0000gn/T/d-1161022-46794-zqldql/package.tgz",
+        "type": "local"
+      },
+      "/private/var/folders/2f/3873lfm50pldk1_tymzpq40c0000gn/T/apm-install-dir-1161022-46794-ylei7a"
+    ]
+  ],
+  "_from": "../d-1161022-46794-zqldql/package.tgz",
+  "_id": "keyboard-localization@1.5.0",
+  "_inCache": true,
+  "_installable": true,
+  "_location": "/keyboard-localization",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "/private/var/folders/2f/3873lfm50pldk1_tymzpq40c0000gn/T/d-1161022-46794-zqldql/package.tgz",
+    "scope": null,
+    "escapedName": null,
+    "name": null,
+    "rawSpec": "/private/var/folders/2f/3873lfm50pldk1_tymzpq40c0000gn/T/d-1161022-46794-zqldql/package.tgz",
+    "spec": "/private/var/folders/2f/3873lfm50pldk1_tymzpq40c0000gn/T/d-1161022-46794-zqldql/package.tgz",
+    "type": "local"
+  },
+  "_requiredBy": [
+    "#USER"
+  ],
+  "_resolved": "file:../d-1161022-46794-zqldql/package.tgz",
+  "_shasum": "b5a74bebf86dee4d37399411eb89deba20b7140a",
+  "_shrinkwrap": null,
+  "_spec": "/private/var/folders/2f/3873lfm50pldk1_tymzpq40c0000gn/T/d-1161022-46794-zqldql/package.tgz",
+  "_where": "/private/var/folders/2f/3873lfm50pldk1_tymzpq40c0000gn/T/apm-install-dir-1161022-46794-ylei7a",
+  "bugs": {
+    "url": "https://github.com/andischerer/atom-keyboard-localization/issues"
+  },
+  "coffeelintConfig": {
+    "indentation": {
+      "level": "error",
+      "value": 2
+    },
+    "line_endings": {
+      "value": "unix",
+      "level": "error"
+    },
+    "max_line_length": {
+      "level": "ignore"
+    }
+  },
+  "dependencies": {
+    "atom-space-pen-views": "2.1.1",
+    "fs-plus": "2.8.1"
+  },
+  "description": "[DEPRECATED] Support for various regional keyboard layouts",
+  "devDependencies": {},
+  "engines": {
+    "atom": ">=1.12.0 || >=1.12.0-beta0"
+  },
+  "homepage": "https://github.com/andischerer/atom-keyboard-localization#readme",
+  "keywords": [
+    "keyboard",
+    "localization",
+    "keybinding",
+    "locale",
+    "compatibility"
+  ],
+  "license": "MIT",
+  "main": "./lib/keyboard-localization",
+  "name": "keyboard-localization",
+  "optionalDependencies": {},
+  "readme": "# [DEPRECATED] Keyboard localization package for non US-Keyboard Layouts\n\n:boom: __The atom team has managed to integrate support for international keyboards into atom v1.12.x core.__ :tada:\n\nIf you're on atom >= 1.12.x this package shouldn't be neccessary any more.\n\nMore details:\n- [andischerer/atom-keyboard-localization#146](https://github.com/andischerer/atom-keyboard-localization/issues/146)\n- [atom/atom#12697](https://github.com/atom/atom/pull/12697)\n- [atom/atom-keymap#144](https://github.com/atom/atom-keymap/pull/144)\n- [atom/atom-keymap#145](https://github.com/atom/atom-keymap/pull/145)\n- [atom/atom-keymap#146](https://github.com/atom/atom-keymap/pull/146)\n\n:heart: Many thanks to all the supporters.  ",
+  "readmeFilename": "README.md",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/andischerer/atom-keyboard-localization.git"
+  },
+  "version": "1.5.0"
+}
