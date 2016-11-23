@@ -46,7 +46,7 @@
       "linter-jslint"
       "atom-ctags"
       "simplified-chinese-menu"
-      "autoclose-html"
+      "emmet"
     ]
     openEmptyEditorOnStart: false
     themes: [
