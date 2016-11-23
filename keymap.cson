@@ -39,3 +39,7 @@
 
 'atom-text-editor:not([mini])':
   'cmd-d':'editor:delete-line'
+
+'body':
+  'cmd-shift-w':'tabs:close-all-tabs'
+  'cmd-e':'tabs:close-other-tabs'

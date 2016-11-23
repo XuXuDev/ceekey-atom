@@ -1,0 +1,62 @@
+{
+  "_args": [
+    [
+      {
+        "raw": "/private/var/folders/2f/3873lfm50pldk1_tymzpq40c0000gn/T/d-1161023-57541-h9xzi9/package.tgz",
+        "scope": null,
+        "escapedName": null,
+        "name": null,
+        "rawSpec": "/private/var/folders/2f/3873lfm50pldk1_tymzpq40c0000gn/T/d-1161023-57541-h9xzi9/package.tgz",
+        "spec": "/private/var/folders/2f/3873lfm50pldk1_tymzpq40c0000gn/T/d-1161023-57541-h9xzi9/package.tgz",
+        "type": "local"
+      },
+      "/private/var/folders/2f/3873lfm50pldk1_tymzpq40c0000gn/T/apm-install-dir-1161023-57541-id9r8x"
+    ]
+  ],
+  "_from": "../d-1161023-57541-h9xzi9/package.tgz",
+  "_id": "inline-autocomplete@1.1.0",
+  "_inCache": true,
+  "_installable": true,
+  "_location": "/inline-autocomplete",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "/private/var/folders/2f/3873lfm50pldk1_tymzpq40c0000gn/T/d-1161023-57541-h9xzi9/package.tgz",
+    "scope": null,
+    "escapedName": null,
+    "name": null,
+    "rawSpec": "/private/var/folders/2f/3873lfm50pldk1_tymzpq40c0000gn/T/d-1161023-57541-h9xzi9/package.tgz",
+    "spec": "/private/var/folders/2f/3873lfm50pldk1_tymzpq40c0000gn/T/d-1161023-57541-h9xzi9/package.tgz",
+    "type": "local"
+  },
+  "_requiredBy": [
+    "#USER"
+  ],
+  "_resolved": "file:../d-1161023-57541-h9xzi9/package.tgz",
+  "_shasum": "e709767ece85c10844bdb2dde9d91058519d7c5b",
+  "_shrinkwrap": null,
+  "_spec": "/private/var/folders/2f/3873lfm50pldk1_tymzpq40c0000gn/T/d-1161023-57541-h9xzi9/package.tgz",
+  "_where": "/private/var/folders/2f/3873lfm50pldk1_tymzpq40c0000gn/T/apm-install-dir-1161023-57541-id9r8x",
+  "bugs": {
+    "url": "https://github.com/alexchee/atom-inline-autocomplete/issues"
+  },
+  "dependencies": {
+    "atom-space-pen-views": "^2.0.3",
+    "underscore-plus": "1.x"
+  },
+  "description": "Inserts possible completions in the editor with `escape`, Textmate style.",
+  "devDependencies": {},
+  "engines": {
+    "atom": ">=0.0.x <2.0.0"
+  },
+  "homepage": "https://github.com/alexchee/atom-inline-autocomplete#readme",
+  "main": "./lib/inline-autocomplete",
+  "name": "inline-autocomplete",
+  "optionalDependencies": {},
+  "readme": "# Inline Autocomplete package\nOriginally a fork from [Autocomplete package](https://github.com/atom/autocomplete), but I made it's own repo to make reporting issues easier.\n\nInlines possible completions in the editor using `escape`, like Textmate's autocomplete.\n\n![](http://imageshack.com/a/img203/3507/pmm.gif)\n\nLooking to use a different keybinding? Copy the following to your\n`~/.atom/keymap.cson` to tweak:\n```\n'atom-text-editor:not([mini])':\n  'alt-space': 'inline-autocomplete:cycle'\n  'shift-alt-space': 'inline-autocomplete:cycle-back'\n```\n\nYou can add a keybind to confirm a selection:\n```\n'.inline-autocompleting':\n  'space': 'inline-autocomplete:stop'\n```\n\nTODO:\n * Pull Editor's grammar to Word List\n * Figure out how to make confirmKeys customizable\n \n",
+  "readmeFilename": "README.md",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alexchee/atom-inline-autocomplete.git"
+  },
+  "version": "1.1.0"
+}

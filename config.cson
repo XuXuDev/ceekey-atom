@@ -6,9 +6,7 @@
     particles:
       colours:
         fixed: "#00fdff"
-      size:
-        max: 10
-        min: 5
+      size: {}
       spawnCount:
         max: 8
         min: 4
@@ -18,7 +16,7 @@
       enabled: true
       volume: 0.01
     screenShake:
-      maxIntensity: 1
+      maxIntensity: 0
       minIntensity: 0
   "atom-beautify":
     css:
@@ -38,21 +36,32 @@
     scss:
       align_assignments: true
     vue: {}
+  "atom-ctags": {}
   "atom-ternjs":
     useSnippets: true
   core:
     disabledPackages: [
       "symbols-view"
+      "jslint"
+      "linter-jslint"
+      "atom-ctags"
+      "simplified-chinese-menu"
+      "autoclose-html"
     ]
+    openEmptyEditorOnStart: false
     themes: [
       "seti-ui"
       "seti-syntax"
     ]
   editor:
+    showIndentGuide: true
     tabLength: 4
   "exception-reporting":
     userId: "3af9b5fc-1479-ccdd-31c6-f33c27768026"
-  jslint: {}
+  jslint:
+    validateOnSave: false
+  "linter-jslint":
+    disableWhenNoJslintrcFileInPath: true
   minimap:
     adjustAbsoluteModeHeight: true
     autoToggle: false
