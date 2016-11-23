@@ -23,29 +23,21 @@
   "atom-beautify":
     css:
       align_assignments: true
-      beautify_on_save: true
       default_beautifier: "Pretty Diff"
     general:
       _analyticsUserId: "aa815f69-15fe-4f40-a3d3-b0d0f83f2bbe"
-    html:
-      beautify_on_save: true
-    js:
-      beautify_on_save: true
-    json:
-      beautify_on_save: true
-    jsx:
-      beautify_on_save: true
-    less:
-      beautify_on_save: true
-    markdown:
-      beautify_on_save: true
-    sass:
-      beautify_on_save: true
+      beautifyEntireFileOnSave: false
+      muteAllErrors: true
+    html: {}
+    js: {}
+    json: {}
+    jsx: {}
+    less: {}
+    markdown: {}
+    sass: {}
     scss:
       align_assignments: true
-      beautify_on_save: true
-    vue:
-      beautify_on_save: true
+    vue: {}
   "atom-ternjs":
     useSnippets: true
   core:

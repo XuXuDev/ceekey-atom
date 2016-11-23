@@ -32,3 +32,10 @@
 # http://flight-manual.atom.io/using-atom/sections/basic-customization/#_cson
 'atom-text-editor':
   'alt-/':'autocomplete-plus:activate'
+  'cmd-;':'atom-beautify:beautify-editor'
+
+'atom-workspace atom-text-editor:not([mini])':
+  'cmd-shift-r':'editor:duplicate-lines'
+
+'atom-text-editor:not([mini])':
+  'cmd-d':'editor:delete-line'
